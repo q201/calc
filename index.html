@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="file.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+ 
+        <h1 onclick="clr(this)">My Calculator </h1>
+       
+    </header>
+
+    <section>
+        <nav>
+			<h1 style="margin-left:10px"> Navigation pane</h1>
+            
+        </nav>
+        <article>
+                <table>
+                    <tr><td id="label" height="100px" colspan="4"  max-width="10ch" >  </td></tr>
+                        <tr>
+                            <td class="data" onclick="calc('1')">1</td>
+                            <td class="data" onclick="calc('2')">2</td>  
+                            <td class="data" onclick="calc('3')">3</td>
+                            <td class="data" onclick="calc('+')">+</td>
+                        </tr>
+                        <tr><td class="data" onclick="calc('4')">4</td><td class="data" onclick="calc('5')">5</td><td class="data" onclick="calc('6')">6</td>
+                            <td class="data" onclick="calc('-')">-</td></tr>
+                        <tr><td class="data" onclick="calc('7')">7</td><td class="data" onclick="calc('8')">8</td><td class="data" onclick="calc('9')">9</td>
+                            <td class="data" onclick="calc('*')">x</td></tr>
+                        <tr><td class="data" onclick="calc('0')">0</td><td class="data" onclick="calc('.')">.</td>
+                            <td class="data" onclick="calc('=')">=</td>
+                            <td class="data" onclick="calc('/')">/</td></tr>
+                           <tr><td class="data" colspan="4" height="80px" onclick="calc('reset')">Reset</td></tr> 
+                    
+                </table>
+        </article>
+
+    </section>
+
+    <footer>
+        This is my footer
+    </footer>
+</body>
+</html>

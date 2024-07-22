@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="calculator">
+        <div id="label">
+        </div>
+        <div id="ans"></div>
+       <div id="btnlayout">
+        <button onclick="toLabel('c')">C </button>
+        <button onclick="toLabel('Del') "> Del </button>
+        <button onclick="toLabel('%')">%</button>
+        <button onclick="toLabel('/')">/</button>
+        <br>
+        <button onclick="toLabel('7')">7 </button>
+        <button onclick="toLabel('8')">8 </button>
+        <button onclick="toLabel('9')">9 </button>
+        <button onclick="toLabel('*')">*</button>
+        <br>
+        <button onclick="toLabel('4')">4 </button>
+        <button onclick="toLabel('5')">5 </button>
+        <button onclick="toLabel('6')">6 </button>
+        <button onclick="toLabel('-')">- </button>
+        <br>
+        <button onclick="toLabel('1')">1 </button>
+        <button onclick="toLabel('2')">2 </button>
+        <button onclick="toLabel('3')">3 </button>
+        <button onclick="toLabel('+')">+ </button>
+        <br>
+        <button id="cal"  onclick="toLabel('0')">0  </button>
+        <button onclick="toLabel('.')">.</button>
+        <button onclick="toLabel('=')">= </button>
+       </div>
+        
+    </div>
+    <script src="jscript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjs@latest/lib/browser/math.js"></script>
+
+    
+</body>
+</html>
